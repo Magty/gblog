@@ -1,0 +1,1 @@
+﻿﻿﻿﻿﻿﻿#开发流程##引入**element-ui**1. npm i element-ui -S- 完整引入：(```)import Vue from 'vue';import ElementUI from 'element-ui';import 'element-ui/lib/theme-chalk/index.css';import App from './App.vue';Vue.use(ElementUI);new Vue({  el: '#app',  render: h => h(App)});(```)-按需引入借助babel-plugin-componentnpm install babel-plugin-component -D
